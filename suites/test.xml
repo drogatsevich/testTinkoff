@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test" verbose="2" annotations="JDK" parallel="methods" thread-count="5">
+
+    <test name="Pays">
+        <packages>
+            <package name="ui"/>
+        </packages>
+    </test>
+
+</suite>
